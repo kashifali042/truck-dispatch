@@ -75,7 +75,7 @@ export default function FaqSection() {
 
               {/* Answer */}
               {openIndex === index && (
-                <p className="mt-4 text-sm text-gray-600"></p>
+                <p className="mt-4 text-sm text-gray-600">{faq.answer}</p>
               )}
             </div>
           ))}
