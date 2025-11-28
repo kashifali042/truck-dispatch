@@ -7,9 +7,7 @@ export default function DryVanDispatch() {
           DRY VAN <span className="text-black">DISPATCH SERVICES</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed">
-          Dispatch Experts work to ensure that you get to run your business the way you want – picking up loads 
-          that are convenient for your schedule and getting support 24/7 along the way without any contracts so 
-          you can stay flexible.
+          Truck dispatch experts helps dry van owner-operators stay loaded with reliable, high paying freight. We match you with the best loads for your lanes, negotiate strong rates, and handle all paperwork so you can focus on driving. With 24/7 dispatch support and no long term contracts, you stay flexible while keeping your dry van moving every day.
         </p>
 
         {/* Form */}

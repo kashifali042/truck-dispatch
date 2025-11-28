@@ -8,11 +8,11 @@ export default function Footer() {
         {/* Logo & Contact */}
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <div className="bg-orange-500 w-10 h-10 rounded-sm" />
-            <div>
-              <h2 className="font-bold text-lg">DispatchExperts</h2>
-              <p className="text-xs opacity-80">WE KEEP YOU MOVING</p>
-            </div>
+            <img
+              src="/truck-dispatch-expert-logo.png"
+              alt="Logo"
+              className="h-16 w-auto"
+            />
           </div>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center space-x-2">
