@@ -5,13 +5,13 @@ export default function RequestACall() {
         
         {/* Left Content */}
         <div className="flex flex-col justify-center">
-          <h2 className="text-4xl font-extrabold leading-tight">
+          <h2 className="text-4xl font-extrabold leading-tight style_header_left_title_1__GZZNu">
             INDEPENDENT <br />
             <span className="text-blue-600">DISPATCHING SERVICES</span> FOR <br />
-            <span className="font-extrabold">OWNER OPERATORS</span>
+            <span className="style_header_left_title_4__o24vT">OWNER OPERATORS</span>
           </h2>
 
-          <p className="mt-4 text-gray-600 text-lg max-w-md">
+          <p className="mt-4 text-gray-600 text-lg max-w-md style_header_left_description__e3MAu">
             Get access to thousands of contract free loads suitable to your truck type.
           </p>
 

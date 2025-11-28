@@ -55,10 +55,10 @@ export default function WhatWeMove() {
           {items.map((item) => (
             <div
               key={item.title}
-              className="flex flex-col items-center text-center"
+              className="flex flex-col items-center text-center style_service_item__2JIXb"
             >
               {/* Icon */}
-              {item.svg}
+              <div className="services_animation">{item.svg}</div>
 
               {/* Title */}
               <h3 className="text-lg font-bold">{item.title}</h3>

@@ -1,4 +1,5 @@
 import { Phone, Mail, Globe, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -33,12 +34,12 @@ export default function Footer() {
         <div>
           <h3 className="font-semibold mb-4 text-sm tracking-wide">TRUCK TYPES</h3>
           <ul className="space-y-2 text-sm opacity-90">
-            <li>Dry Van</li>
-            <li>Reefer</li>
-            <li>Box truck</li>
-            <li>Flat Bed</li>
-            <li>Step Deck</li>
-            <li>Power only</li>
+            <li><Link href="/dry-van" className="block px-4 py-2 hover:bg-gray-100">Dry Van</Link></li>
+            <li><Link href="/reefer" className="block px-4 py-2 hover:bg-gray-100">Reefer</Link></li>
+            <li><Link href="/box-truck" className="block px-4 py-2 hover:bg-gray-100">Box truck</Link></li>
+            <li><Link href="/flat-bed" className="block px-4 py-2 hover:bg-gray-100">Flat Bed</Link></li>
+            <li><Link href="/step-deck" className="block px-4 py-2 hover:bg-gray-100">Step Deck</Link></li>
+            <li><Link href="/power-only" className="block px-4 py-2 hover:bg-gray-100">Power only</Link></li>
           </ul>
         </div>
 
