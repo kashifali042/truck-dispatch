@@ -35,7 +35,7 @@ export default function Navbar() {
           <ul className="flex items-center gap-8 text-sm font-medium">
 
             {/* DROPDOWN */}
-            <li className="relative group">
+            <li className="relative group" onMouseEnter={() => setOpenDropdown(true)} onMouseLeave={() => setOpenDropdown(false)}>
               <button
                 onClick={() => setOpenDropdown(!openDropdown)}
                 className="hover:text-blue-600 flex items-center gap-1"
