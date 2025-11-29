@@ -178,7 +178,7 @@ export default function DryVanDispatch() {
     <section id="faq" className="py-20 bg-[#0066A1] style_section">
           <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-center text-white text-4xl font-bold mb-12">
-              FREQUENTLY <span className="text-orange-400">ASKED</span> QUESTIONS
+              Dry Van <span className="text-orange-400">Dispatch</span> FAQs
             </h2>
     
             <div className="grid md:grid-cols-3 gap-6">
