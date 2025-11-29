@@ -4,28 +4,28 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "How fast can I start hauling reefer freight?",
-    answer: "Most carriers begin the same day after submitting required documents.",
+    question: "How fast can I start getting flatbed loads?",
+    answer: "Most carriers begin the same day after submitting documents.",
   },
   {
     question: "Do you force dispatch?",
-    answer: "No. You approve every load.",
+    answer: "No. You approve every load you stay in control.",
   },
   {
-    question: "Do you handle temperature-critical loads?",
-    answer: "Yes. We dispatch fresh, frozen, medical, and time-sensitive reefer freight.",
+    question: "Do you handle oversized or heavy haul loads?",
+    answer: "Yes. We work with shippers offering machinery, steel, construction freight, and more.",
   },
   {
-    question: "Do you help new reefer authorities?",
-    answer: "Yes. We guide you through setup, shipper connections, and early load planning.",
+    question: "Do you help new authorities running flatbed?",
+    answer: "Yes. We assist with setup, lane planning, and onboarding so you can start earning quickly.",
   },
   {
-    question: "Can you find dedicated reefer lanes?",
-    answer: "Yes, especially in produce and grocery supply chains.",
+    question: "Can you find consistent lanes for flatbed?",
+    answer: "Yes. We secure repeat and dedicated lanes when available.",
   },
   {
-    question: "Do you offer 24/7 support?",
-    answer: "Absolutely. We monitor your freight and assist anytime day or night.",
+    question: "Is support really 24/7?",
+    answer: "Yes, our team is available around the clock.",
   },
 ];
 
@@ -99,10 +99,10 @@ export default function Reefer() {
           </p>
 
           <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
-            Reefer Dispatch Services
+            Reasonable Fee Structure
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            Truck dispatch experts supports your reefer operations with temperature specific load planning, real-time updates, and continuous communication with shippers and brokers. Whether it's produce, beverages, frozen goods, or medical shipments, we ensure you have the right loads that match your reefer capabilities and schedule. Our team handles route planning, coordination, and compliance so you can focus on safe, efficient deliveries.
+            Our fee structure is transparent and built to support reefer carriers with higher fuel and operating costs. You receive complete dispatch services load search, negotiation, booking, paperwork, and billing, without surprise fees or hidden charges. With Truck dispatch experts, your business stays predictable and profitable.
           </p>
         </div>
 
@@ -111,14 +111,14 @@ export default function Reefer() {
             TOP MARKET LOADS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We secure premium reefer loads from trusted shippers needing reliable, temperature controlled transportation. Our dispatchers reduce your downtime by sourcing nearby freight quickly, minimizing empty miles, and keeping your reefer on steady, high value loads. No more refreshing load boards we bring the right loads straight to you.
+            We connect you with high demand shippers needing open deck carriers for industrial, construction, and oversized freight. Our dispatch team reduces your downtime by finding nearby freight fast and keeping your trailer full. No more refreshing load boards we bring top market loads directly to you.
           </p>
 
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3 mt-6">
             NO CONTRACTS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We offer a true no contract dispatching service, giving you total freedom to choose your loads and lanes. You pay only per load, can decline any load, and can pause or stop service anytime. No pressure. No forced dispatch. No long term commitments, just flexibility and support when you need it.
+            We operate with a true no contract policy, giving you full control over your business. You choose the loads you want, pay only per load, and can pause or stop anytime. No pressure, no minimum requirements, and absolutely no forced dispatch.
           </p>
         </div>
 
@@ -130,44 +130,36 @@ export default function Reefer() {
             We handle every step of the flatbed process. From sourcing freight and scheduling appointments to paperwork, billing, and payment follow ups everything is included at no extra charge. You get complete support for your operation while staying focused on driving and securing your loads properly.
           </p>
         </div>
-        <div>
-          <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
-            Reasonable Fee Structure
-          </h3>
-          <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            Our fee structure is transparent and built to support reefer carriers with higher fuel and operating costs. You receive complete dispatch services load search, negotiation, booking, paperwork, and billing, without surprise fees or hidden charges. With Truck dispatch experts, your business stays predictable and profitable.
-          </p>
-        </div>
 
         <div>
           <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
             Who We Work With
           </h3>
           <ul className="list-disc pl-6 text-gray-600 space-y-2">
-            <li>Reefer owner-operators</li>
-            <li>Regional and OTR refrigerated carriers</li>
-            <li>Fleets hauling fresh, frozen, and perishables</li>
-            <li>New reefer authorities</li>
-            <li>Drivers needing 24/7 dispatch communication</li>
-            <li>Carriers wanting consistent temperature-controlled freight</li>
+            <li>Flatbed owner operators</li>
+            <li>Step deck and RGN carriers</li>
+            <li>Hotshot drivers</li>
+            <li>Regional and OTR flatbed fleets</li>
+            <li>New authorities hauling open deck freight</li>
+            <li>Carriers hauling steel, lumber, machinery, and oversized loads</li>
           </ul>
         </div>
 
         <div>
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3">
-            What You Get With Our Dry Van Dispatching
+            What You Get With Our Flatbed Dispatching
           </h3>
           <ul className="list-disc pl-6 text-gray-600 space-y-2">
-            <li>Dedicated dispatcher focused entirely on your dry van</li>
-            <li>Access to high paying nationwide dry van loads</li>
-            <li>Strong rate negotiation for better weekly revenue</li>
-            <li>Load booking, scheduling, and shipper communication</li>
-            <li>Real-time check calls and 24/7 support</li>
-            <li>Help with detention, layover, and TONU</li>
-            <li>Full paperwork, invoicing, and billing handled for you</li>
-            <li>Smarter routing and lane optimization to avoid downtime</li>
-            <li>No contracts – pay only per load</li>
-            <li>Market updates and lane insights to help you earn more</li>
+            <li>Dedicated dispatcher experienced in flatbed & open deck freight</li>
+            <li>Access to high paying flatbed, step deck, and oversized loads</li>
+            <li>Strong rate negotiation for higher operating costs</li>
+            <li>Full load planning, booking, and shipper coordination</li>
+            <li>24/7 communication and support</li>
+            <li>Help with detention, layover, and TONU pay</li>
+            <li>Complete paperwork, invoicing, and billing management</li>
+            <li>Smart routing to avoid restrictions & reduce empty miles</li>
+            <li>No contracts, pay only per load</li>
+            <li>Market guidance for steel, machinery, construction, and industrial lanes</li>
           </ul>
         </div>
       </div>
@@ -197,7 +189,7 @@ export default function Reefer() {
     <section id="faq" className="py-20 bg-[#0066A1] style_section">
           <div className="max-w-6xl mx-auto px-4">
             <h2 className="text-center text-white text-4xl font-bold mb-12">
-              Reefer <span className="text-orange-400">Dispatch</span> FAQs
+              Flatbed <span className="text-orange-400">Dispatch</span> FAQs
             </h2>
     
             <div className="grid md:grid-cols-3 gap-6">

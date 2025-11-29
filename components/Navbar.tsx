@@ -53,7 +53,7 @@ export default function Navbar() {
                 <Link href="/reefer" className="block px-4 py-2 hover:bg-gray-100">Reefer</Link>
                 <Link href="/box-truck" className="block px-4 py-2 hover:bg-gray-100">Box Truck</Link>
                 <Link href="/flat-bed" className="block px-4 py-2 hover:bg-gray-100">Flat Bed</Link>
-                <Link href="/step-deck" className="block px-4 py-2 hover:bg-gray-100">Step Deck</Link>
+                <Link href="/step-deck" className="block px-4 py-2 hover:bg-gray-100">Hot Shot</Link>
                 <Link href="/power-only" className="block px-4 py-2 hover:bg-gray-100">Power Only</Link>
               </div>
             </li>

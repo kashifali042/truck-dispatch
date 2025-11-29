@@ -1,37 +1,73 @@
-export default function StepDeck() {
+"use client";
+import { useState } from "react";
+import { FaPlus, FaMinus } from "react-icons/fa";
+
+const faqs = [
+  {
+    question: "How fast can I start running hotshot loads?",
+    answer: "Most hotshot carriers start the same day after submitting documents.",
+  },
+  {
+    question: "Do I need ramps or a gooseneck trailer?",
+    answer: "It helps but we also book bumper pull and dovetail hotshot loads.",
+  },
+  {
+    question: "Do you find partial loads?",
+    answer: "Yes, we book partials, expedited freight, and light hotshot loads daily.",
+  },
+  {
+    question: "Is the fee really 8%?",
+    answer: "Yes, a simple flat 8%, with no hidden charges.",
+  },
+  {
+    question: "Do you help new hotshot authorities?",
+    answer: "Absolutely. We help with setup, shipper coordination, and early load planning.",
+  },
+  {
+    question: "Is support available 24/7?",
+    answer: "Yes, our dispatch team is always available.",
+  },
+];
+
+export default function Reefer() {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
   return (
+    <>
     <section className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 py-10 px-4">
       {/* Left Content */}
       <div>
         <h2 className="text-3xl font-bold text-blue-700">
-          <span className="text-black">Get</span> Step Deck Truck <span className="text-black">Loads</span>
+          Hot Shot <span className="text-black">Dispatch Services</span>
         </h2>
-        <p className="mt-4 text-gray-600 leading-relaxed">
-          Dispatch Experts work to ensure that you get to run your business the way you want--picking up loads that are convenient to your schedule and getting support 24/7 along the way without any contracts so you can stay flexible.
+        <p className="mt-4 text-gray-600 leading-relaxed mb-4">
+          Truck Dispatch Experts help hotshot owner operators and fleets stay loaded with fast moving, high paying freight. We work with brokers and shippers who specialize in hotshot loads, lightweight machinery, construction materials, expedited shipments, partials, and fast delivery freight. With strong rate negotiation, 24/7 support, and a simple 8% dispatch fee, your hotshot stays earning every day without downtime.
         </p>
-
+        <h2 className="text-3xl font-bold text-blue-700">Ready to Start Running High Paying <span className="text-black">Hot Shot Loads?</span></h2>
         {/* Form */}
         <form className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <input type="text" placeholder="Full Name" className="border p-2 rounded-lg bg-blue-50" />
           <input type="text" placeholder="Company Name" className="border p-2 rounded-lg bg-blue-50" />
-          <input type="email" placeholder="Email" className="border p-2 rounded-lg bg-blue-50" />
           <input type="text" placeholder="Phone" className="border p-2 rounded-lg bg-blue-50" />
+          <input type="email" placeholder="Email" className="border p-2 rounded-lg bg-blue-50" />
           <input type="text" placeholder="Details" className="border p-2 rounded-lg bg-blue-50" />
           <input type="text" placeholder="Promo Code" className="border p-2 rounded-lg bg-blue-50" />
           <select className="border p-2 rounded-lg bg-blue-50">
             <option>Equipment Type</option>
             <option>Dry Van</option>
             <option>Reefer</option>
+            <option>Flatbed</option>
+            <option>Step Deck</option>
+            <option>Hot Shot</option>
+            <option>Box Truck</option>
+            <option>Power Only</option>
           </select>
-          <select className="border p-2 rounded-lg bg-blue-50">
-            <option>Home State</option>
-            <option>California</option>
-            <option>Texas</option>
-          </select>
-          <select className="border p-2 rounded-lg bg-blue-50">
-            <option>How did you hear about us?</option>
-            <option>Google</option>
-            <option>Facebook</option>
-          </select>
+          <input type="text" placeholder="MC Number" className="border p-2 rounded-lg bg-blue-50" />
+          <input type="text" placeholder="Preferred Lanes / States" className="border p-2 rounded-lg bg-blue-50" />
+          <textarea placeholder="Message or Questions" className="border p-2 rounded-lg bg-blue-50"></textarea>
 
           <button type="submit" className="sm:col-span-2 bg-blue-700 text-white py-3 rounded-lg font-semibold mt-2">
             Start Moving Today
@@ -56,41 +92,130 @@ export default function StepDeck() {
       <div className="sm:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
         <div>
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3">
-            Dispatch Services Tailored for <span className="text-black">Box Trucks</span>
+            Why Choose Us for <span className="text-black">Hot Shot Dispatching?</span>
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            If you’re an owner/operator of a box truck, you know the headaches that can come from running your business. From the pile of paperwork, searching for decent loads and trying to maintain working relationships with reliable brokers and shippers, we get it and we want to help take the stress out of whatever is eating up your time and profits. The industry can be tough on box truck operators, with shippers sometimes hesitant to use the service or operators feeling stuck in the red with the quality of loads that are available. We offer services tailored to your business. Want help getting loads but can handle the paperwork? That’s great. Want the paperwork handled and live route information from a dedicated dispatcher? We do that too. Our model is designed with the owner/operator in mind, and we trust that you know what’s best for your business and can choose what services you want from Dispatch Experts.
+            Hotshot trucking requires speed, timing, and the ability to secure the right load without wasting miles. Truck Dispatch Experts understand hotshot ready freight, partial loads, trailer specs, equipment limitations, and the tight delivery windows that define this industry. We help you avoid deadhead, find profitable lanes, and keep your hotshot unit running consistently with strong weekly revenue.
           </p>
 
           <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
-            REASONABLE FEE STRUCTURE
+            Reasonable Fee Structure — <span className="text-black">Only 8%</span>
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We provide start to finish support, meaning that we’re with you for every stage of your operation.
-            From finding new shippers or connecting with existing ones, to booking and scheduling loads for you,
-            to handling billing and payment, at no extra cost. With Dispatch Experts your responsibilities become
-            easier to manage so we help you stay focused on the practical side of business rather than logistics.
+            Our fee is straightforward and designed for hotshot carriers 8% per load. This includes load search, negotiation, booking, paperwork, invoicing, and full dispatch support. No setup fees, no subscription costs, and no hidden charges.
           </p>
         </div>
 
         <div>
           <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3">
-            <span className="text-black">Concentrate</span> on What You Do Best
+            <span className="text-black">TOP</span> MARKET LOADS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            At Dispatch Experts, we can handle pretty much everything that you need to be on the road with a good load. We know that filling out paperwork can take hours, time that could be spent making deliveries, so we can take that off your plate to ensure that you’re stacking up more runs with extraneous tasks out of your way.
+            We source hotshot friendly freight from trusted brokers and shippers across the U.S. Whether you prefer short hauls, regional routes, or OTR freight, we bring you consistent loads without the stress of searching load boards. You get access to strong paying markets, fast moving loads, and repeat lanes when available.
           </p>
 
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3 mt-6">
-            NO CONTRACTS
+            <span className="text-black">NO</span> CONTRACTS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We offer pay per load meaning no contracts or commitments. Don’t want a certain load? No problem.
-            Pick the one that suits you best and move. We minimize numbers of loads, so you stay flexible.
-            Take on what works for you. If you decide to part ways later just contact us anytime.
+            We operate with a true no contract dispatch model. You choose your loads, decide your lanes, and can pause or stop anytime. No forced dispatch. No pressure. Total flexibility for your hotshot business.
           </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3">
+            Start to <span className="text-black">Finish Support</span>
+          </h3>
+          <p className="mt-3 text-gray-600 leading-relaxed text-sm">
+            We manage everything from load search to payment follow ups booking, scheduling, paperwork, billing, and compliance. You focus on driving while we handle the backend operations. With no extra charges beyond the 8% fee, you get full operational support designed to simplify your day.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3">
+            Who We <span className="text-black">Work With</span>
+          </h3>
+          <ul className="list-disc pl-6 text-gray-600 space-y-2">
+            <li>CDL and non CDL hotshot drivers</li>
+            <li>New authorities running hotshot</li>
+            <li>Local, regional, and OTR hotshot carriers</li>
+            <li>30–40 ft gooseneck & dovetail trailers</li>
+            <li>Hotshots hauling light machinery, construction materials, partials, and expedited loads</li>
+            <li>Owner operators wanting consistent weekly freight</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
+            <span className="text-black">What You Get</span> With Our Hot Shot Dispatching
+          </h3>
+          <ul className="list-disc pl-6 text-gray-600 space-y-2">
+            <li>Dedicated dispatcher experienced in hotshot freight</li>
+            <li>Access to high paying expedited, partial, and lightweight loads</li>
+            <li>Strong rate negotiation to maximize every mile</li>
+            <li>Full booking, scheduling, and shipper communication</li>
+            <li>Real time load updates and 24/7 driver support</li>
+            <li>Assistance with detention, layover, and TONU</li>
+            <li>Paperwork, invoicing, PODs, and billing handled for you</li>
+            <li>Smart routing and lane planning to reduce deadhead miles</li>
+            <li>A simple 8% dispatch fee no hidden charges</li>
+            <li>No contracts, work on your own terms</li>
+          </ul>
         </div>
       </div>
     </section>
+    <section className="py-10 px-4 max-w-4xl mx-auto style_section">
+      <h2 className="text-3xl font-bold text-blue-700 mb-6">
+        Documents Required to Get Started
+      </h2>
+
+      <table className="w-full border border-gray-300 rounded-lg text-left">
+        <tbody>
+          <tr className="border-b border-gray-300">
+            <td className="p-4 border-r">MC Authority</td>
+            <td className="p-4">W-9</td>
+          </tr>
+          <tr className="border-b border-gray-300">
+            <td className="p-4 border-r">Signed Carrier Agreement</td>
+            <td className="p-4">Driver’s License</td>
+          </tr>
+          <tr className="border-b border-gray-300">
+            <td className="p-4 border-r">Certificate of Insurance (COI)</td>
+            <td className="p-4">Trailer details (length, weight limit, ramps, etc.)</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="faq" className="py-20 bg-[#0066A1] style_section">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-center text-white text-4xl font-bold mb-12">
+              Hot Shot <span className="text-orange-400">Dispatch</span> FAQs
+            </h2>
+    
+            <div className="grid md:grid-cols-3 gap-6">
+              {faqs.map((faq, index) => (
+                <div
+                  key={index}
+                  className="bg-white p-6 rounded-lg shadow cursor-pointer transition-all duration-300"
+                  onClick={() => toggleFAQ(index)}
+                >
+                  <div className="flex justify-between items-center">
+                    <h3 className="text-sm font-bold">{faq.question}</h3>
+    
+                    <span className="text-orange-500 text-lg">
+                      {openIndex === index ? <FaMinus /> : <FaPlus />}
+                    </span>
+                  </div>
+    
+                  {/* Answer */}
+                  {openIndex === index && (
+                    <p className="mt-4 text-sm text-gray-600">{faq.answer}</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      </>  
   );
 }
