@@ -7,7 +7,7 @@ export default function BoxTruck() {
           <span className="text-black">Get</span> Box Truck <span className="text-black">Loads</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed">
-          Dispatch Experts work to ensure that you get to run your business the way you want--picking up loads that are convenient to your schedule and getting support 24/7 along the way without any contracts so you can stay flexible.
+          Truck Dispatch Experts helps box truck owner operators and small fleets stay loaded with steady, high paying freight. We connect you with shippers and brokers who specialize in box truck friendly loads, final mile freight, retail deliveries, warehouse transfers, expedited freight, and regional runs. With strong rate negotiation, 24/7 support and a straightforward 8% dispatch fee, you stay profitable while keeping your box truck moving daily.
         </p>
 
         {/* Form */}

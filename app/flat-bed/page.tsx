@@ -7,7 +7,7 @@ export default function FlatBed() {
           Flatbed <span className="text-black">Dispatching Services</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed">
-          Dispatch Experts work to ensure that you get to run your business the way you want--picking up loads that are convenient to your schedule and getting support 24/7 along the way without any contracts so you can stay flexible.
+          Truck Dispatch Experts helps flatbed and open deck carriers stay loaded with reliable, high paying freight across the country. We connect you with shippers who need oversized, heavy haul, construction, machinery, and industrial loads moved safely and on time. With strong rate negotiation, 24/7 support, and no long term contracts, you stay flexible while maximizing your weekly revenue.
         </p>
 
         {/* Form */}

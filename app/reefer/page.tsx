@@ -7,7 +7,7 @@ export default function Reefer() {
           Reefer <span className="text-black">Dispatching Solutions</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed">
-          With Dispatch Experts, you no longer need to hunt the load boards for well-paying reefer loads. We work with shippers and brokers to secure loads that require an excellent and reliable driver, so you can focus more on your driving and less on your operations.
+          Truck Dispatch Experts helps reefer owner operators and fleets stay loaded with reliable, temperature controlled freight. We connect you to high paying refrigerated loads, negotiate strong rates, and handle all communication so you can focus on safe, on time deliveries. With 24/7 dispatch support and no long term contracts, you stay flexible while keeping your reefer moving every day.
         </p>
 
         {/* Form */}

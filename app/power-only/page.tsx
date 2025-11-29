@@ -7,7 +7,7 @@ export default function PowerOnly() {
           Power only <span className="text-black">Loads</span><span className="text-black"> For owner & operators</span>
         </h2>
         <p className="mt-4 text-gray-600 leading-relaxed">
-          Our experienced dispatchers can help to plot routes to pick up and drop off Power Only loads, and we have 24/7 support so that you’re never alone on the road. Focus on doing what you do best and leave the details to us.
+          Truck Dispatch Experts helps Power Only owner operators and fleets stay loaded with consistent, high paying freight from load outs and tow aways to trailer moves, preloaded trailers, and drop and hook freight. We find the right trailer type, the right lane, and the right rate so you can stay moving without downtime. With strong rate negotiation, 24/7 support, and no long term contracts, your Power Only unit stays earning every week.
         </p>
 
         {/* Form */}

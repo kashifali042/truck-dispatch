@@ -56,13 +56,10 @@ export default function DryVanDispatch() {
       <div className="sm:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
         <div>
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3">
-            START-TO-FINISH SUPPORT
+            Why Choose Us for Dry Van Dispatching?
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We provide start to finish support, meaning that we’re with you for every stage of your operation.
-            From finding new shippers or connecting with existing ones, to booking and scheduling loads for you,
-            to handling billing and payment, at no extra cost. With Dispatch Experts your responsibilities become
-            easier to manage so we help you stay focused on the practical side of business rather than logistics.
+            Truck dispatch experts specializes in dry van freight and understands the lanes, rates, and market patterns that impact your business. Our team monitors nationwide market conditions, spot rates, and high-demand regions so you always make informed decisions. We work to reduce empty miles, boost your RPM, and keep you on profitable freight all week long.
           </p>
 
           <h3 className="text-2xl font-bold text-blue-700 border-l-4 border-blue-700 pl-3 mt-6">
@@ -81,19 +78,14 @@ export default function DryVanDispatch() {
             TOP MARKET LOADS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We help you secure top market freight loads and negotiate fair and competitive rates on your behalf.
-            We also aim to reduce wait time on the road load by providing you with available shippers in the areas
-            you’re in so you’re not stuck waiting. Our service saves you from refreshing the load boards by finding
-            better paying jobs from reliable shippers.
+            We secure top market freight for your truck by working directly with reliable shippers and brokers who consistently offer competitive rates. Our dispatchers minimize your empty miles by finding nearby freight fast, helping you avoid downtime between loads. No more constant load board refreshing we do the searching and negotiating while you run profitable, steady freight from trusted partners nationwide.
           </p>
 
           <h3 className="text-2xl font-bold text-orange-500 border-l-4 border-orange-500 pl-3 mt-6">
             NO CONTRACTS
           </h3>
           <p className="mt-3 text-gray-600 leading-relaxed text-sm">
-            We offer pay per load meaning no contracts or commitments. Don’t want a certain load? No problem.
-            Pick the one that suits you best and move. We minimize numbers of loads, so you stay flexible.
-            Take on what works for you. If you decide to part ways later just contact us anytime.
+            We operate with a true no contract policy, giving you complete freedom to run your business your way. You only pay per load, and you choose which loads you want to take. There is no pressure, no minimum requirement, and no long term commitment. If you ever decide to pause or stop, just send us a quick message or call no hassle, no penalties, just flexibility on your terms.
           </p>
         </div>
       </div>
