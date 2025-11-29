@@ -48,7 +48,7 @@ export default function WhatWeDo() {
       </div>
 
       {/* Features Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-6 max-w-6xl mx-auto style_why_work_with_us_footer__7rtHt">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-6 max-w-6xl mx-auto justify-items-center style_why_work_with_us_footer__7rtHt">
         {features.map((f, i) => (
           <div key={i} className="shadow-lg p-6 text-center style_privilege__P_ld6 rounded-lg w-full">
             <div className="flex flex-col items-center gap-4 style_privilege_wrapper__S5xmW">
