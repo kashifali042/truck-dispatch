@@ -28,7 +28,7 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section id="testimonials" className="py-20 bg-white styles_section__oCGAA pb-32">
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 py-20">
         {/* Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
           OUR <span className="text-orange-500">CUSTOMERS SAY</span>
